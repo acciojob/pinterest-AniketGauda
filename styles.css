@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+
+
+#itm1{
+    width: 69%;
+    height: 300px;
+    background-color: red;
+}
+
+#itm2{
+    width: 30%;
+    height: 300px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#itm2>h1{
+    font-size: 40px;
+}
+
+#itm2>p{
+    font-size: 23px;
+}
+
+#itm1>img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#btn{
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
